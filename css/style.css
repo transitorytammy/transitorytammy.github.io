@@ -1,0 +1,98 @@
+body{
+    color: #FEFEFA;
+    text-align: center;
+    background-image:url('low_contrast_linen/low_contrast_linen.png');
+    border: 5px solid #777777;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 30px;
+    padding: 50px;
+}
+
+img{
+    max-height: 250px;
+    max-width: 250px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
+}
+
+h1{
+    font-family: "Londrina Shadow";
+    font-size: 350%;
+    color: #669966;
+    margin: 0px;
+}
+
+h2{
+    font-weight: normal;
+    margin: 20px;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #999999;
+}
+
+li{
+    margin: 0px;
+    padding: 0px;
+}
+.about_me{
+    position: relative;
+    right: -10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.top_border {
+    margin: 30px 0;
+}
+
+.about_me{
+    margin: 20px;
+    display: inline-block;
+}
+.about_text{
+    margin: 40px;
+}
+.resume{
+    padding: 10px 50px 10px 50px;
+    text-align: left;
+}
+
+.institution{
+    padding-bottom: 8px;
+    margin: 0px;
+    text-align: left;
+    color: #336699;
+}
+
+.degree{
+    margin-top: 0px;
+}
+nav {
+    color: #FEFEFA;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+small {
+    float: right;
+}
+
+a{
+    color: #336699;
+}
