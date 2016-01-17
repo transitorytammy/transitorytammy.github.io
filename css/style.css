@@ -1,36 +1,35 @@
 body{
-    color: #FEFEFA;
+    color: #000;
     text-align: center;
-    background-image:url('low_contrast_linen/low_contrast_linen.png');
-    border: 5px solid #777777;
+    border: 5px solid #777;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     margin: 30px;
     padding: 50px;
 }
 
 img{
-    max-height: 250px;
-    max-width: 250px;
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    max-height: 400px;
+    max-width: 400px;
+}
 
-    padding: 30px;
-    margin: 0 auto;
-    position: relative;
-    left: -20px;
+p {
+  font-size: 18px;
+  margin: 40px 100px;
 }
 
 h1{
-    font-family: "Londrina Shadow";
-    font-size: 300%;
-    color: #FEFEFA;
+    font-size: 425%;
     margin: 0px;
 }
 
+.header {
+  text-transform: uppercase;
+}
+
 h2{
+    text-transform: uppercase;
     font-weight: normal;
     margin: 20px;
 }
@@ -84,7 +83,6 @@ li{
     margin-top: 0px;
 }
 nav {
-    color: #FEFEFA;
     font-size: 20px;
     padding-top: 30px;
 }
@@ -95,4 +93,5 @@ small {
 
 a{
     color: #336699;
+    text-decoration: none;
 }
