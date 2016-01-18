@@ -1,97 +1,130 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
 body{
     color: #000;
     text-align: center;
-    border: 5px solid #777;
+    border: 5px solid #333;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    margin: 30px;
-    padding: 50px;
+    margin: 5% 10%;
+    padding: 30px;
 }
 
-img{
-    max-height: 400px;
-    max-width: 400px;
+img {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.main-img {
+  max-height: 200px;
+  max-width: 200px;
 }
 
 p {
   font-size: 18px;
-  margin: 40px 100px;
+  margin: 25px 15%;
 }
 
-h1{
-    font-size: 425%;
-    margin: 0px;
+h1 {
+  color: #333;
+  font-size: 90px;
+  margin: 10px 0 15px;
 }
 
-.header {
+h2 {
   text-transform: uppercase;
-}
-
-h2{
-    text-transform: uppercase;
-    font-weight: normal;
-    margin: 20px;
+  font-weight: normal;
+  margin: 20px;
 }
 
 h3 {
-    text-align: left;
-    margin-bottom: 0px;
-    padding-bottom: 2px;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #999999;
-}
-
-li{
-    margin: 0px;
-    padding: 0px;
-}
-.about_me{
-    position: relative;
-    right: -10px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.top_border {
-    margin: 30px 0;
-}
-
-.about_me{
-    margin: 20px;
-    display: inline-block;
-}
-.about_text{
-    margin: 40px;
-}
-.resume{
-    padding: 10px 50px 10px 50px;
-    text-align: left;
-}
-
-.institution{
-    padding-bottom: 8px;
-    margin: 0px;
-    text-align: left;
-    color: #336699;
-}
-
-.degree{
-    margin-top: 0px;
-}
-nav {
-    font-size: 20px;
-    padding-top: 30px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
 }
 
 small {
-    float: right;
+  float: right;
 }
 
+a {
+  color: #336699;
+  text-decoration: none;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.border {
+  border: none;
+  border-top: 1px solid #999999;
+  margin: 20px 0 30px;
+}
+
+.resume {
+  padding: 10px 60px;
+  text-align: left;
+}
+
+.institution {
+  padding-bottom: 8px;
+  margin: 0px;
+  text-align: left;
+  color: #336699;
+}
+
+.degree {
+  margin-top: 0px;
+}
+
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.icon{
+  display: inline-block;
+  position: relative;
+  color: #bdbdbd;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.47em;
+  line-height: 46px;
+  background-color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
+  -webkit-transition:background-color 250ms ease 0s;
+  transition:background-color 250ms ease 0s;
+}
+
+.icon.instagram:hover{background-color: #3f729b;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.tumblr:hover{background-color: #374a61;}
+.github:hover{background-color: #000;}
+.email:hover{background-color: #d5b120;}
+
 a{
-    color: #336699;
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.icon:hover{
+  color: #fff;
+  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
+}
+
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
+}
+
+.wrapper {
+  margin: 20px 0 30px;
 }
