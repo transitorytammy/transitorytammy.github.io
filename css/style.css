@@ -86,7 +86,7 @@ a {
   font-family: 'zocial', sans-serif;
 }
 
-.icon{
+.icon {
   display: inline-block;
   position: relative;
   color: #333;
@@ -104,12 +104,29 @@ a {
   transition:background-color 250ms ease 0s;
 }
 
-.icon.instagram:hover{background-color: #3f729b;}
-.twitter:hover{background-color: #4cb6e8;}
-.linkedin:hover{background-color: #29a0cc;}
-.tumblr:hover{background-color: #374a61;}
-.github:hover{background-color: #000;}
-.email:hover{background-color: #d5b120;}
+.icon.instagram:hover {
+  background-color: #3f729b;
+}
+
+.twitter:hover {
+  background-color: #4cb6e8;
+}
+
+.linkedin:hover {
+  background-color: #29a0cc;
+}
+
+.tumblr:hover {
+  background-color: #374a61;
+}
+
+.github:hover {
+  background-color: #000;
+}
+
+.email:hover {
+  background-color: #d5b120;
+}
 
 .icon:hover{
   color: #fff;
