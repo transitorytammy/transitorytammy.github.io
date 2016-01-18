@@ -50,7 +50,7 @@ small {
 }
 
 a {
-  color: #336699;
+  color: #12829E;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ a {
   padding-bottom: 8px;
   margin: 0px;
   text-align: left;
-  color: #336699;
+  color: #12829E;
 }
 
 .degree {
@@ -89,7 +89,7 @@ a {
 .icon{
   display: inline-block;
   position: relative;
-  color: #bdbdbd;
+  color: #333;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -110,10 +110,6 @@ a {
 .tumblr:hover{background-color: #374a61;}
 .github:hover{background-color: #000;}
 .email:hover{background-color: #d5b120;}
-
-a{
-  text-decoration: none;
-}
 
 .icon:hover{
   color: #fff;
