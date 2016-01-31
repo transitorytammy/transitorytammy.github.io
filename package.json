@@ -1,0 +1,34 @@
+{
+  "name": "transitorytammy.github.io",
+  "version": "1.0.0",
+  "description": "building new stuff",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "compass": "^0.1.1",
+    "gulp-eslint": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-uglify": "^1.5.1",
+    "scss-lint": "0.0.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transitorytammy/transitorytammy.github.io.git"
+  },
+  "author": "Tammy Soo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/transitorytammy/transitorytammy.github.io/issues"
+  },
+  "homepage": "https://github.com/transitorytammy/transitorytammy.github.io#readme"
+}
